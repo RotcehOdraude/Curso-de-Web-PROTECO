@@ -1,7 +1,6 @@
-p[class = clase2]{/*Selctor de atributo*/
-  background: brown;
+a[class ~="estilo2"]{
+  background: blue;
 }
-p[class]{
-  background: orange;
+a[class=estilo1]{
+  background: yellow;
 }
-/*Propidad de cascada, por eso aparece todo naranja*/
