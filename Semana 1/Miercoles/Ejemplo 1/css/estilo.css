@@ -1,0 +1,10 @@
+p>span{
+  color: red;
+}
+/*Selector descendete: todas las etiquetas a dentro de un p seran del color ...*/
+p a{
+  background: blue;
+}
+p>a{
+  background: blue;
+}
