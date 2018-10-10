@@ -1,0 +1,27 @@
+body{
+  background-color: #F1F1F1;/*Color para que no se canse la vista*/
+}
+h1{
+  /*position: static;/*Posicionamiento normal - por cultura general xD*/
+  position: static;
+  top: 50px;
+  left: 100px;
+}
+.pos{
+  position: relative;/*Se acopla a las dimensiones respecto al elemento anterior*/
+  left: 100px;
+  right: 100px;
+  top: 100px;
+  bottom: 100px;
+  padding: 20px;
+}
+.pos1{
+  position: fixed;
+  left: 200px;
+  right: 200px;
+  top: 200px;
+  bottom: 200px;
+}
+.pos2{
+  position: inherit;
+}

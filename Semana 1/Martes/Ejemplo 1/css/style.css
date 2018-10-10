@@ -1,0 +1,28 @@
+.caja1{/*selector de clase*/
+  background: #c85be7;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+}
+.caja2{
+  background: #00a7fa;
+  margin: 50px; /*para modificar los cuatro lados de una vez*/
+  padding: 60px;
+}
+.caja3{
+  background: #33e0ff;
+  border-style: solid;/*para toda la caja*/
+  border-top-style: double;
+  border-right-style: solid;
+  border-left-style: dashed;
+  border-bottom-style: dotted;
+  border-radius: 30px;
+  border-width: 20px;
+
+}
