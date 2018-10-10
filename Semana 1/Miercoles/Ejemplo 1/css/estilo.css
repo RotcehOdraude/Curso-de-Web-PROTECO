@@ -1,3 +1,7 @@
-p + p{
-  background: green;
+p[class = clase2]{/*Selctor de atributo*/
+  background: brown;
 }
+p[class]{
+  background: orange;
+}
+/*Propidad de cascada, por eso aparece todo naranja*/
