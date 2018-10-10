@@ -1,0 +1,15 @@
+div{
+  width: 200px;
+  height: 200px;
+  background: black;
+  border: 4px solid yellow;
+}
+div#num:hover{/*hover es para que se active cuando pasamos el raton*/
+  transform: rotate(0deg);
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+  transition: width 5s;
+  transition: height 5s;
+
+}
